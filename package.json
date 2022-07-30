@@ -1,0 +1,22 @@
+{
+  "name": "todo-by-tdd-mohmmed23",
+  "version": "1.0.0",
+  "description": "The aim for this project is to build a basic To-do app. This file will help you get started and give you an introduction to unit testing and TDD for client-side code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CA-G12/todo-by-tdd-mohmmed23.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CA-G12/todo-by-tdd-mohmmed23/issues"
+  },
+  "homepage": "https://github.com/CA-G12/todo-by-tdd-mohmmed23#readme",
+  "dependencies": {
+    "jest": "^28.1.3"
+  }
+}

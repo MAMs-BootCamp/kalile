@@ -1,0 +1,128 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #333;
+  font-family: "Raleway", sans-serif;
+}
+.input__group{
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+.input__group button{
+  width: 120px;
+}
+.header__h1__title {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: white;
+}
+.input__description {
+  text-align: left;
+  width: 50%;
+  padding: 20px;
+  border-radius: 20px;
+  border: none;
+}
+.form__button__addTodo {
+  border-radius: 20px;
+  background-color: teal;
+  color: white;
+
+  font-size: 1.2rem;
+  border: 2px solid #333;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.form__button__addTodo:hover {
+  background-color: turquoise;
+  color: white;
+}
+.container {
+  width: 60%;
+  border-radius: 20px;
+  margin: auto;
+  background-color: white;
+}
+.desc__span {
+  text-align: center;
+  color: #333;
+  font-size: 1.2rem;
+  width: 50%;
+  padding-right: 20px;
+}
+.form__label__description {
+  color: white;
+  font-size: 1.2rem;
+}
+.ul__todo {
+  list-style: none;
+  text-align: center;
+}
+
+.ul__todo li {
+  padding: 20px;
+  border-bottom: 2px solid #333;
+  box-sizing: border-box;
+}
+.button_delete {
+  border-radius: 20px;
+  padding: 10px;
+  border: none;
+  color: white;
+  background-color: red;
+  font-weight: 800;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.button_done {
+  border-radius: 20px;
+ 
+  padding: 10px;
+  border: none;
+  color: white;
+  background-color: green;
+  font-weight: 800;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.done {
+  text-decoration: line-through;
+}
+li{
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: rgb(179, 170, 170);
+  display: flex;
+  justify-content: space-around;
+}
+li div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px ;
+}
+li button{
+  width: 120px;
+  margin-top: 5px;
+}
+.todo-container{
+  padding: 15px;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    width: 70%;
+    padding: 15px;
+
+  }
+ 
+}
